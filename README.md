@@ -1,6 +1,6 @@
 # sqlHelper
 A tool for generating creating table script in Mysql.
-###Usage
+### Usage
 #### 1.add annotation to Java Bean
 - for example:
 ```java
