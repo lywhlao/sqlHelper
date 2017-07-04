@@ -258,7 +258,7 @@ public class SqlUtil {
                 sb.append(",\n");
             }
         }
-        if(indexType!=IndexType.UNIQUE_KEY){
+        if(indexType!=IndexType.UNIQUE_KEY && !keyMap.isEmpty()){
             sb.append(",\n");
         }
     }

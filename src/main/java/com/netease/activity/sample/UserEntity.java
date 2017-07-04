@@ -24,7 +24,6 @@ public class UserEntity {
    String mobile;
    @UniqueKey("IDX_YQ_USER_SECO")
    long amount;//基金金额  分
-   @Key("IDX_KEY")
    boolean useRedPacket;//是否使用红包
    boolean isBinding; //是否绑定手机号
    boolean isBefore;  //是否在这之前注册
