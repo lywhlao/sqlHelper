@@ -42,3 +42,11 @@ CREATE TABLE `tb_yq_user` (
 		UNIQUE KEY `IDX_YQ_USER_UID` (`uid`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='用户表';
 ```
+### Appendix
+#### annotation
+- PrimaryKey:primary key
+- UniqueKey:unique index
+- Key:normal index 
+- TaleName:declare table's name
+- Desc :add comment(table name or field comment)
+- Ignore:ignore the field in Bean
